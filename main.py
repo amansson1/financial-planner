@@ -693,12 +693,12 @@ assert_equal(outcome(sample_state()).state, sample_state())
 
 
 # TODO before submitting: save this file as main.py and fill in your repository links.
-"""set_site_information(
+set_site_information(
     author="Anna Maansson",
     description="Plan your paycheck, taxes, 401(k) contribution, expenses, and savings.",
     sources=["https://drafter-edu.github.io/drafter/"],
-    planning=["CS1_Final_Project_0__Pick_a_Problem.docx", "CS1_Final_Project_1__Design.docx"],
-    links=["https://github.com/YOUR-USERNAME/YOUR-REPOSITORY"],
-)"""
+    planning=["AI_Conversation.pdf", "CS1_Design.pdf", "CS1_Pick_a_Problem.pdf", "Project.py"],
+    links=["https://github.com/amansson1/financial-planner/blob/main/AI_Conversation.pdf", "https://github.com/amansson1/financial-planner/blob/main/CS1_Design.pdf", "https://github.com/amansson1/financial-planner/blob/main/CS1_Pick_a_Problem.pdf", "https://github.com/amansson1/financial-planner/blob/main/Project.py"],
+)
 
 start_server(State(30, 0.0, 0.0, "DE", [], [], ""))
