@@ -698,7 +698,7 @@ set_site_information(
     description="Plan your paycheck, taxes, 401(k) contribution, expenses, and savings.",
     sources=["https://drafter-edu.github.io/drafter/"],
     planning=["AI_Conversation.pdf", "CS1_Design.pdf", "CS1_Pick_a_Problem.pdf", "Project.py"],
-    links=["https://github.com/amansson1/financial-planner/blob/main/AI_Conversation.pdf", "https://github.com/amansson1/financial-planner/blob/main/CS1_Design.pdf", "https://github.com/amansson1/financial-planner/blob/main/CS1_Pick_a_Problem.pdf", "https://github.com/amansson1/financial-planner/blob/main/Project.py"],
+    links=[https://github.com/amansson1/financial-planner],
 )
 
 start_server(State(30, 0.0, 0.0, "DE", [], [], ""))
